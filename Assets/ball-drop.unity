@@ -218,7 +218,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 160152199}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6, y: 5, z: 1}
+  m_LocalPosition: {x: -5.75, y: 5, z: 1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -234,6 +234,7 @@ GameObject:
   - 33: {fileID: 730350650}
   - 65: {fileID: 730350649}
   - 23: {fileID: 730350648}
+  - 54: {fileID: 730350647}
   m_Layer: 0
   m_Name: Panel
   m_TagString: Untagged
@@ -241,6 +242,21 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!54 &730350647
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 730350646}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!23 &730350648
 Renderer:
   m_ObjectHideFlags: 0
@@ -291,7 +307,7 @@ Transform:
   m_LocalScale: {x: 2.37953091, y: .387499809, z: 1.52916646}
   m_Children: []
   m_Father: {fileID: 1189232796}
-  m_RootOrder: 0
+  m_RootOrder: 5
 --- !u!1 &854409340
 GameObject:
   m_ObjectHideFlags: 0
@@ -303,6 +319,7 @@ GameObject:
   - 33: {fileID: 854409344}
   - 65: {fileID: 854409343}
   - 23: {fileID: 854409342}
+  - 54: {fileID: 854409341}
   m_Layer: 0
   m_Name: Panel
   m_TagString: Untagged
@@ -310,6 +327,21 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!54 &854409341
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 854409340}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!23 &854409342
 Renderer:
   m_ObjectHideFlags: 0
@@ -360,7 +392,7 @@ Transform:
   m_LocalScale: {x: 2.37953091, y: .387499809, z: 1.52916646}
   m_Children: []
   m_Father: {fileID: 1189232796}
-  m_RootOrder: 4
+  m_RootOrder: 3
 --- !u!1 &1189232795
 GameObject:
   m_ObjectHideFlags: 0
@@ -386,12 +418,12 @@ Transform:
   m_LocalPosition: {x: -2.31821132, y: 4.71113396, z: -1.23828125}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 730350651}
   - {fileID: 1232761801}
   - {fileID: 1787367074}
   - {fileID: 1529292520}
   - {fileID: 854409345}
   - {fileID: 1957628159}
+  - {fileID: 730350651}
   m_Father: {fileID: 0}
   m_RootOrder: 5
 --- !u!1 &1232761796
@@ -405,6 +437,7 @@ GameObject:
   - 33: {fileID: 1232761800}
   - 65: {fileID: 1232761799}
   - 23: {fileID: 1232761798}
+  - 54: {fileID: 1232761797}
   m_Layer: 0
   m_Name: Panel
   m_TagString: Untagged
@@ -412,6 +445,21 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!54 &1232761797
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1232761796}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!23 &1232761798
 Renderer:
   m_ObjectHideFlags: 0
@@ -462,7 +510,7 @@ Transform:
   m_LocalScale: {x: 2.37953091, y: .387499809, z: 1.52916646}
   m_Children: []
   m_Father: {fileID: 1189232796}
-  m_RootOrder: 1
+  m_RootOrder: 0
 --- !u!1 &1374173272
 GameObject:
   m_ObjectHideFlags: 0
@@ -557,6 +605,7 @@ GameObject:
   - 33: {fileID: 1529292519}
   - 65: {fileID: 1529292518}
   - 23: {fileID: 1529292517}
+  - 54: {fileID: 1529292516}
   m_Layer: 0
   m_Name: Panel
   m_TagString: Untagged
@@ -564,6 +613,21 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!54 &1529292516
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1529292515}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!23 &1529292517
 Renderer:
   m_ObjectHideFlags: 0
@@ -614,7 +678,7 @@ Transform:
   m_LocalScale: {x: 2.37953091, y: .387499809, z: 1.52916646}
   m_Children: []
   m_Father: {fileID: 1189232796}
-  m_RootOrder: 3
+  m_RootOrder: 2
 --- !u!1 &1550055420
 GameObject:
   m_ObjectHideFlags: 0
@@ -698,6 +762,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   angle: 60
+  canRotate: 1
 --- !u!1 &1569995399
 GameObject:
   m_ObjectHideFlags: 0
@@ -793,6 +858,7 @@ GameObject:
   - 33: {fileID: 1787367073}
   - 65: {fileID: 1787367072}
   - 23: {fileID: 1787367071}
+  - 54: {fileID: 1787367070}
   m_Layer: 0
   m_Name: Panel
   m_TagString: Untagged
@@ -800,6 +866,21 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!54 &1787367070
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1787367069}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!23 &1787367071
 Renderer:
   m_ObjectHideFlags: 0
@@ -850,7 +931,7 @@ Transform:
   m_LocalScale: {x: 2.37953091, y: .387499809, z: 1.52916646}
   m_Children: []
   m_Father: {fileID: 1189232796}
-  m_RootOrder: 2
+  m_RootOrder: 1
 --- !u!1 &1957628155
 GameObject:
   m_ObjectHideFlags: 0
@@ -862,6 +943,7 @@ GameObject:
   - 33: {fileID: 1957628158}
   - 65: {fileID: 1957628157}
   - 23: {fileID: 1957628156}
+  - 54: {fileID: 1957628160}
   m_Layer: 0
   m_Name: Panel
   m_TagString: Untagged
@@ -919,4 +1001,19 @@ Transform:
   m_LocalScale: {x: 2.37953091, y: .387499809, z: 1.52916646}
   m_Children: []
   m_Father: {fileID: 1189232796}
-  m_RootOrder: 5
+  m_RootOrder: 4
+--- !u!54 &1957628160
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1957628155}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
