@@ -53,7 +53,12 @@ function ReleaseButton() {
 		yield;
 	}
 	
-	panel.transform.eulerAngles.z = 0;
+	//panel.transform.eulerAngles.z = 0;
+	
+	var panels = GameObject.Find("Panels");
+	for (var p : Transform in panels.transform)
+		p.transform.eulerAngles.z = 0;
+	
 	canRotate = true;
 
 }
